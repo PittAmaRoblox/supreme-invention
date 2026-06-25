@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+    --bgcolor: #282828; 
+    --headerbg: #fabd2f; 
+    --txtcolor: #fbf1c7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bgcolor);
+    color: var(--txtcolor);
+    font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--headerbg);
+    color: var(--bgcolor);
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--headerbg);
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p, ul, ol {
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin-left: 25px;
+}
+
+hr {
+    margin: 40px 0;
+    border: 1px solid #504945;
+}
+
+.secao-galeria img,
+.secao-galeria iframe {
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+}

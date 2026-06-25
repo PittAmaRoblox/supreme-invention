@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site legal</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <h1>Portal de Tecnologia e Programação</h1>
+        <p>Bem-vindo! Este é meu projeto web em desenvolvimento nas aulas de informática</p>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção do perfil do aluno -->
+        <h2>Perfil do Dev</h2>
+        <p>Meu nome é <b>λ</b> tenho <b>999</b> anos e estudo na escola <b>Julia Wanderley</b>.</p>
+        <p>Este site está sendo feito no editor de texto <b>VSCode</b> junto ao editor de terminal <b>VIM</b></p>
+
+        <!-- Seção de Interesses e Listas -->
+        <h2>Meus Interesses Principais</h2>
+
+        <h3>Lista dos meus 3 jogos ou aplicativos favoritos:</h3>
+        <ol>
+            <li>VSCode</li>
+            <li>Godot Engine</li>
+            <li>Linux (Arch Btw)</li>
+        </ol>
+
+        <h3>Matérias favoritas:</h3>
+        <ul>
+            <li>Matemática</li>
+            <li>Programação</li>
+            <li>Robótica</li>
+        </ul>
+
+        <hr>
+
+        <!-- Galeria -->
+        <section class="secao-galeria">
+            <h2 class="galeria">Galeria</h2>
+            <p>Abaixo estão algumas fotos e vídeos que eu escolhi para o site</p>
+
+            <img src="https://static01.nyt.com/images/2025/06/09/multimedia/09HS-tb-dinosaur-01-fvzp/09HS-tb-dinosaur-01-fvzp-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Dinossauro">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/T24ZOgvMF30?si=N5RT9BliyIMbI83r"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </section>
+
+        <hr>
+
+        <!-- Tabela -->
+        <h2>Cronograma de Estudos de Tecnologia</h2>
+        <p>Esta tabela organiza as tecnologias e linguagens que pretendo praticar</p>
+
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr bgcolor="#504945">
+                    <th>Tecnologia / Linguagem</th>
+                    <th>O que faz</th>
+                    <th>Nível de Dificuldade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python, GDScript, C#, Rust e C++</td>
+                    <td>No geral essas linguagens podem criar qualquer coisa mas <b>GDScript</b> e <b>C#</b> brilham em jogos.</td>
+                    <td>Médio / Difícil</td>
+                </tr>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Estrutura do Site</td>
+                    <td>Fácil</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Estilizar o site com cores, formas e etc</td>
+                    <td>Fácil</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Sistema, lógica e animações</td>
+                    <td>Difícil</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- Formulário -->
+        <h2>Fale Conosco / Envie uma Mensagem</h2>
+        <p>Preencha os campos abaixo para simular o envio de um cadastro para o site:</p>
+
+        <form>
+            <label>Seu Nome Completo:</label><br>
+            <input type="text" placeholder="Digite seu nome aqui..." size="40"><br><br>
+
+            <label>Seu Melhor E-mail:</label><br>
+            <input type="email" placeholder="exemplo@escola.com" size="40"><br><br>
+
+            <label>Qual seu nível de interesse em programação?</label><br>
+            <select>
+                <option>Muito Baixo</option>
+                <option>Médio / Curioso</option>
+                <option>Muito Alto / Quero trabalhar com isso</option>
+            </select><br><br>
+
+            <label>Deixe uma mensagem para o professor:</label><br>
+            <textarea rows="4" cols="40" placeholder="Escreva seu comentário sobre a aula aqui..."></textarea><br><br>
+
+            <input type="button" value="Enviar Dados do Formulário"
+                onclick="alert('Dados enviados com sucesso! Parabéns pelo seu site!')">
+        </form>
+
+        <br><br>
+    </main>
+
+    <!-- Rodapé -->
+    <footer style="text-align: center; padding: 20px; background-color: #1d2021;">
+        <p>© 2026 - Desenvolvido orgulhosamente por Pitt</p>
+        <a href="https://github.com/PittAmaRoblox" style="color: var(--headerbg);">Meu Github</a>
+    </footer>
+
+</body>
+</html>
